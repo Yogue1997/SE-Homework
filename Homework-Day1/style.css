@@ -1,0 +1,64 @@
+head,h2{
+    text-align: center;
+    font: bolder;
+    border:gray;
+    padding: 20px;
+    border-style: solid;
+    color: rgb(83, 64, 29);
+    text-decoration: underline;
+    background-color: rgb(192, 133, 133);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    background-color: peachpuff;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+p{
+    color: brown;
+}
+
+.para{
+    color: rgb(33, 35, 37);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    font-style: inherit;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#things{
+    text-transform: capitalize;
+    color: rgb(39, 63, 16);
+    font-style: italic;
+}
+
+
+a{
+    color: purple;
+}
+
+#div1{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+form{
+    border-style: solid;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=button]{
+    color: black;
+    background-color: rgb(40, 38, 182), rgb(red, green, blue);
+}
