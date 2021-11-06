@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <h2>Youssouf Yogue</h2>
+    <h2>Welcome to my website</h2>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    <div id="div1">
+    <header>
+        <a id="navp" href="http://127.0.0.1:5500/Homework-Day1/index.html">HOME</a>
         <nav>
-            <a href="pages/hobbies.html">hobbies</a>
+            <ul>
+                <li><a href="pages/hobbies.html" class="nav">hobbies</a></li>
+                <li><a href="#photo" id="imag" class="nav">image</a></li>
+            </ul>
         </nav>
-    </div>
+    </header>
     <p class="para">Hi my name is Youssouf Yogue and I live in florence Kentucky, which is 20 minutes away from cincinnati
         and I am so excited to finally join per scholas so that I can add more knowledge to the one I have
         which isn't that much but I want to learn more become a software engineer and be able to join the 
@@ -18,11 +21,11 @@
     </p>
     <div id="div2">
         <p>And here are 3 of my favorite things</p>
-        <ul id="things">
+        <ol id="things">
             <li>Family</li>
             <li>Learning new things</li>
             <li>GOD</li>
-        </ul>
+        </ol>
     </div>
     <div>
         <form>
@@ -31,10 +34,10 @@
             <input type="text" placeholder= "Enter your first name"><br>
             Last Name: <br>
             <input type="text" placeholder="Enter your last name"><br>
-            What city are you from: <br>
+            City: <br>
              <input type="text" placeholder="City"><br>
-            Favorite hobbies: <br>
-             <input type="text" placeholder="Just name 3"><br>
+            Hobbies: <br>
+             <input type="text" placeholder="You can name one"><br>
             Gender: <br>
             <input type="radio" name="gender" value="Male">
                            Male <br>
@@ -45,7 +48,30 @@
             <input type="button" name="submit" value="submit">
         </form>
     </div>
-    <p class="para">You can <a href="https://www.instagram.com/youssoufyogue/" target="_blank">follow me</a> on instagram</p>
-    <img src="1234.jpeg" alt="Youssouf Yogue">
+    <div id="examp">
+        <h4>Here is an example ⬇️⬇️⬇️</h4>
+    </div>
+    <div id="tab">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Laste Name</th>
+                <th>City</th>
+                <th>Hobbies</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <th>Youssouf</th>
+                <th>Yogue</th>
+                <th>Florence, Ky</th>
+                <th>Coding</th>
+                <th>Male</th>
+            </tr>
+        </table>
+    </div>
+    <div id="insta">
+        <p class="para">You can <a href="https://www.instagram.com/youssoufyogue/" target="_blank">follow me</a> on instagram</p>
+        <img src="1234.jpeg" alt="Youssouf Yogue" id="photo" href="#photo">
+    </div>
 </body>
 </html>

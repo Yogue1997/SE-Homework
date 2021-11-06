@@ -4,11 +4,9 @@ head,h2{
     border:gray;
     padding: 20px;
     border-style: solid;
-    color: rgb(83, 64, 29);
+    color: rgb(202, 190, 169);
     text-decoration: underline;
-    background-color: rgb(192, 133, 133);
-    margin-top: 50px;
-    margin-bottom: 20px;
+    background-color: rgb(49, 39, 39);
 }
 
 
@@ -17,7 +15,7 @@ body{
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
-p{
+#navp,p{
     color: brown;
 }
 
@@ -28,4 +26,50 @@ p{
     font-style: inherit;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+div,#vid{
+    justify-content: center;
+    text-align: start;
+}
+
+div,#vid2{
+    text-align: end;
+}
+
+div,#vid3{
+    text-align: center;
+}
+
+p,.nav{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+}
+
+.nav:hover{
+    color: rgb(42, 214, 214);
+}
+
+#navp{
+    cursor: pointer;
+}
+
+#navp:hover{
+    color: rgb(42, 214, 214);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(8, 19, 16);
 }

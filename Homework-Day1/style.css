@@ -4,16 +4,13 @@ head,h2{
     border:gray;
     padding: 20px;
     border-style: solid;
-    color: rgb(83, 64, 29);
+    color: rgb(202, 190, 169);
     text-decoration: underline;
-    background-color: rgb(192, 133, 133);
-    margin-top: 50px;
-    margin-bottom: 20px;
-    
+    background-color: rgb(49, 39, 39);
 }
 
 body{
-    background-color: peachpuff;
+    background-color: rgb(7, 4, 2);
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
@@ -41,12 +38,40 @@ a{
     color: purple;
 }
 
-#div1{
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+#navp,.nav{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+#navp{
+    color: brown;
+}
+
+.nav{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+}
+
+.nav:hover{
+    color: rgb(42, 214, 214);
+}
+
+#navp{
+    cursor: pointer;
+}
+
+#navp:hover{
+    color: rgb(42, 214, 214);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(8, 19, 16);
 }
 
 form{
@@ -62,3 +87,25 @@ input[type=button]{
     color: black;
     background-color: rgb(40, 38, 182), rgb(red, green, blue);
 }
+
+#insta{
+    text-align: center;
+}
+
+#photo{
+    margin-top: 30px;
+}
+
+#examp{
+    text-align: center;
+    margin-bottom: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+  #tab{
+      border: solid;
+      padding: 50px;
+      align-items: center;
+  }
